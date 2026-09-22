@@ -1,0 +1,87 @@
+/* NIGHTBLOOM — THE VEILED MOON
+   Custom Lioden CSS
+*/
+
+body {
+  background: #080a12 !important;
+  color: #ddd9e8 !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+}
+
+body:before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 82% 12%, rgba(205,215,255,.14), transparent 20%),
+    radial-gradient(circle at 15% 75%, rgba(120,95,165,.08), transparent 28%);
+  z-index: -1;
+}
+
+a {
+  color: #cfd8ff !important;
+}
+
+a:hover {
+  color: #ffffff !important;
+  text-shadow: 0 0 8px rgba(210,220,255,.7);
+}
+
+#main {
+  background: rgba(10, 12, 22, .90) !important;
+  border-color: #34384f !important;
+}
+
+.boxcontainer,
+.Box3 {
+  background: linear-gradient(145deg, rgba(18,20,34,.96), rgba(10,11,20,.96)) !important;
+  border: 1px solid #555a78 !important;
+  border-radius: 14px !important;
+  box-shadow:
+    0 0 0 1px rgba(180,190,235,.05),
+    0 8px 28px rgba(0,0,0,.55),
+    inset 0 0 24px rgba(125,105,180,.05) !important;
+  color: #ddd9e8 !important;
+}
+
+.scrollBox {
+  background: rgba(7,9,17,.78) !important;
+  border-color: #454b68 !important;
+  border-radius: 12px !important;
+  color: #ddd9e8 !important;
+}
+
+h1, h2, h3, h4 {
+  color: #eef1ff !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px rgba(185,195,255,.28);
+}
+
+h2:before {
+  content: "☾  ";
+  color: #cdd6ff;
+}
+
+h2:after {
+  content: "  ☽";
+  color: #cdd6ff;
+}
+
+.credit3 {
+  opacity: .65;
+  font-size: 11px;
+}
+
+.credit3 a {
+  color: #aeb8df !important;
+}
+
+@media (max-width: 700px) {
+  .boxcontainer,
+  .Box3 {
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+  }
+}
