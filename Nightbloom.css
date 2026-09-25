@@ -32,6 +32,9 @@ a:hover {
   background: transparent !important;
   border-color: #34384f !important;
 }
+.col-md-9.col-xs-12 {
+  background: transparent !important;
+}
 
 .boxcontainer,
 .Box3 {
