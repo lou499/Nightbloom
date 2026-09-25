@@ -35,6 +35,9 @@ a:hover {
 .col-md-9.col-xs-12 {
   background: transparent !important;
 }
+div.container.main {
+  background: transparent !important;
+}
 
 .boxcontainer,
 .Box3 {
