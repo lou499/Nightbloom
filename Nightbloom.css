@@ -91,3 +91,69 @@ h2:after {
     margin-right: 3% !important;
   }
 }
+/* NIGHTBLOOM — LIODEN UI */
+
+.navbar,
+.navbar-default,
+.topbar {
+  background: rgba(10, 12, 22, .94) !important;
+  border-color: #34384f !important;
+}
+
+.navbar li a,
+.navbar-default .navbar-nav > li > a {
+  color: #ddd9e8 !important;
+}
+
+.breadcrumb {
+  background: rgba(18, 20, 34, .90) !important;
+  color: #ddd9e8 !important;
+  border-color: #454b68 !important;
+}
+
+.panel,
+.panel-default,
+.sidebar,
+.feature,
+.cave-grid,
+.beetle-grid {
+  background: rgba(12, 15, 27, .90) !important;
+  color: #ddd9e8 !important;
+  border-color: #454b68 !important;
+}
+
+.panel-heading {
+  background: rgba(25, 28, 45, .95) !important;
+  color: #eef1ff !important;
+  border-color: #454b68 !important;
+}
+
+.panel-body {
+  background: rgba(12, 15, 27, .90) !important;
+  color: #ddd9e8 !important;
+}
+
+/* CHAT */
+
+#chatMessageContainer {
+  background: transparent !important;
+  border-color: #454b68 !important;
+}
+
+.s-chat-message:nth-child(odd),
+.s-chat-message:nth-child(even),
+.s-chat-message__pinned {
+  background: rgba(12, 15, 27, .92) !important;
+  color: #ddd9e8 !important;
+  border-color: #34384f !important;
+}
+
+.s-chat-message_timestamp {
+  color: #aeb8df !important;
+}
+
+button#label_currentChannel {
+  background: rgba(18, 20, 34, .95) !important;
+  color: #eef1ff !important;
+  border-color: #454b68 !important;
+}
