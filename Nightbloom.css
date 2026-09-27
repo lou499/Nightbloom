@@ -165,6 +165,31 @@ button#label_currentChannel {
 .s-chat-message__pinned {
   color: #eef1ff !important;
 }
+/* NIGHTBLOOM — ALERTS & TABLES */
+
+.alert-success,
+.alert-danger,
+.attack-won,
+.attack-lost {
+  background: rgba(12, 15, 27, .92) !important;
+  color: #eef1ff !important;
+  border: 1px solid #454b68 !important;
+}
+
+.top,
+th,
+.bottom,
+.left {
+  background: rgba(18, 20, 34, .95) !important;
+  color: #eef1ff !important;
+  border-color: #454b68 !important;
+}
+
+td {
+  background: rgba(10, 12, 22, .88) !important;
+  color: #ddd9e8 !important;
+  border-color: #34384f !important;
+}
 
 .s-chat-message a,
 .s-chat-message a:visited {
