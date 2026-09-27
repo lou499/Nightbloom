@@ -157,3 +157,20 @@ button#label_currentChannel {
   color: #eef1ff !important;
   border-color: #454b68 !important;
 }
+/* NIGHTBLOOM — CHAT TEXT */
+
+.s-chat-message,
+.s-chat-message:nth-child(odd),
+.s-chat-message:nth-child(even),
+.s-chat-message__pinned {
+  color: #eef1ff !important;
+}
+
+.s-chat-message a,
+.s-chat-message a:visited {
+  color: #cfd8ff !important;
+}
+
+.s-chat-message_timestamp {
+  color: #aeb8df !important;
+}
